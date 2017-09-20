@@ -1,0 +1,3355 @@
+{
+    "Acid Infusion": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Change Incarnate's element to acid, unlocking Poison Dart and Corrosive Spray.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-15-14.png",
+        "memory_cost": "2",
+        "name": "Acid Infusion",
+        "radius": 0,
+        "requires": [
+            "Summoning 2",
+            "Geomancer 2"
+        ],
+        "resist": null,
+        "sp_cost": 2
+    },
+    "Acid Spores": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "Shoot spores of corrosive acid, dealing [X] Poison Damage.\nSet Poisoned for 3 turn(s).\nDamage is based on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer_acid_spores-icon.png",
+        "memory_cost": "2",
+        "name": "Acid Spores",
+        "radius": "2",
+        "requires": [
+            "Geomancer 3"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": 2
+    },
+    "Adrenaline": {
+        "ap_cost": null,
+        "cooldown": 4,
+        "description": "Gain 2 Action Points immediately, but lose 2 Action Points next turn.\nAny Action Points over your maximum are lost. Does not break Invisibility or Sneaking",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel_adrenaline-icon.png",
+        "memory_cost": "1",
+        "name": "Adrenaline",
+        "radius": 0,
+        "requires": [
+            "Scoundrel 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "All In": {
+        "ap_cost": 3,
+        "cooldown": 1,
+        "description": "Perform a heavy attack that deals [X] physical damage.\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/all_in-attack.png",
+        "memory_cost": 0,
+        "name": "All In",
+        "radius": 0,
+        "requires": ["Melee Weapon"],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Apotheosis": {
+        "ap_cost": 2,
+        "cooldown": null,
+        "description": "You take the first step towards godhood. The cost of all Source skills is reduced by -3 Source Point.\nSet Apotheosis for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph_apothesis-icon.png",
+        "memory_cost": "3",
+        "name": "Apotheosis",
+        "radius": 0,
+        "requires": [
+            "Polymorph 5"
+        ],
+        "resist": null,
+        "sp_cost": 3
+    },
+    "Apportation": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Transport pickable items in the target area into your inventory.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/2.png",
+        "memory_cost": "1",
+        "name": "Apportation",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Arcane Stitch": {
+        "ap_cost": 3,
+        "cooldown": 4,
+        "description": "Fully restore target character's Magic Armour\nRestore [X] Magic Armour",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist-14-16.png",
+        "memory_cost": "2",
+        "name": "Arcane Stitch",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 3"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Armour of Frost": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Ice forms a defensive barrier around the target, providing 8 Magic Armour. Cures Burning, Poisoned, Stunned, Frozen, Suffocating and Petrified.\nSet Magic Shell for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_armour_of_frost.png",
+        "memory_cost": "1",
+        "name": "Armour of Frost",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Arrow Spray": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "Fire 16 arrows in a 60 degree arc. Each arrow deals [X] physical damage.\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman_arrow_spray-icon.png",
+        "memory_cost": "2",
+        "name": "Arrow Spray",
+        "radius": 0,
+        "requires": [
+            "Huntsman 3"
+        ],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Arrow Storm": {
+        "ap_cost": 3,
+        "cooldown": 2,
+        "description": "16 arrows fall from the sky in the target area, dealing [X] physical damage\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman-18-4.png",
+        "memory_cost": "3",
+        "name": "Arrow Storm",
+        "radius": "2",
+        "requires": [
+            "Huntsman 5"
+        ],
+        "resist": "None",
+        "sp_cost": 3
+    },
+    "Assassinate": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "Attacking your target with meticulous aim, dealing [X] physical damage in one shot. When performed from stealth, this attack gains a 50% damage increase.\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman_snipe-icon.png",
+        "memory_cost": "1",
+        "name": "Assassinate",
+        "radius": 0,
+        "requires": [
+            "Huntsman 3"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Backlash": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Jump over the enemy, landing behind their back and backstabbing them for [X] physical damage.\n100% chance to BackstabDamage is based on your basic attack and receives a bonus from Finesse",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel_backlash-icon.png",
+        "memory_cost": 1,
+        "name": "Backlash",
+        "radius": 0,
+        "requires": ["Dagger"],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Ballistic Shot": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "A shot that deals [X] Physical damage and receives 5% bonus damage per 1m distance to target\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman-15-2.png",
+        "memory_cost": "1",
+        "name": "Ballistic Shot",
+        "radius": 0,
+        "requires": [
+            "Huntsman 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Barrage": {
+        "ap_cost": 3,
+        "cooldown": 3,
+        "description": "Fire three arrows at three targets of your choice, each dealing [X] physical damage.\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman_barrage-icon.png",
+        "memory_cost": "1",
+        "name": "Barrage",
+        "radius": 0,
+        "requires": [
+            "Huntsman 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Battering Ram": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Rush forward in a straight line, to a designated point, hitting all enemies in your path for[X]physical damage and setting Knockdown.\nSet Knocked Down for 1 turn(s).\nDamage is based on your basic attack and receives a bonus from Strength.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_battering_ram-icon.png",
+        "memory_cost": "1",
+        "name": "Battering Ram",
+        "radius": 0,
+        "requires": [
+            "Warfare 1",
+            "Melee"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Battle Stomp": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "Smash your weapon into the ground, knocking down non-allied characters in front of you, and hitting them for [X] physical damage. Also clears non-cursed surfaces and clouds.\nSet Knocked Down for 1 turn(s).\nDamage is based on your basic attack and receives a bonus from Strength.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_battle_stomp-icon.png",
+        "memory_cost": "1",
+        "name": "Battle Stomp",
+        "radius": 0,
+        "requires": [
+            "Warfare 1",
+            "Melee"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Black Shroud": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Create a cloud of cursed smoke in an area, setting Suffocated and Blind on all characters within.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_black_shroud-icon.png",
+        "memory_cost": "2",
+        "name": "Black Shroud",
+        "radius": 0,
+        "requires": [
+            "Necromancer 3"
+        ],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Bleed Fire": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Enemies will bleed fire when hit. Also creates a small fire area beneath each target and ignites surfaces in the area.\nSet Bleed Fire for 3 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_fire_blood-icon.png",
+        "memory_cost": "1",
+        "name": "Bleed Fire",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 1",
+            "Polymorph 1"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Bless": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Bless target character or surface.\nSet Blessed for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/bless-icon.png",
+        "memory_cost": 1,
+        "name": "Bless",
+        "radius": 0,
+        "requires": [],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Blessed Smoke Cloud": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Conjure a cloud of thick blessed smoke that makes characters invisible.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge-17-2.png",
+        "memory_cost": "2",
+        "name": "Blessed Smoke Cloud",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 2",
+            "Scoundrel 2"
+        ],
+        "resist": "None",
+        "sp_cost": 2
+    },
+    "Blinding Radiance": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "Enemies around you receive [X] air damage. You receive a status that turns enemies in a 5m radius Blind.\nSets Blinding Radiance for 1 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_blinding_radiance-icon.png",
+        "memory_cost": "1",
+        "name": "Blinding Radiance",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Blinding Squall": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "A storm approaches and strong winds rise. They Blind and deal [X] air damage to characters in the target area.\nSet Blinded for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/blinding_squall-icon.png",
+        "memory_cost": 0,
+        "name": "Blinding Squall",
+        "radius": 0,
+        "requires": [],
+        "resist": "magic_armour-icon",
+        "sp_cost": 1
+    },
+    "Blitz Attack": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Jump from one target to another, hitting up to 2 targets, dealing [X] physical damage to each. Targets are chosen randomly in a 10m radius.\nDamage is based on your basic attack and receives a bonus from Strength.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_blitz_attack-icon.png",
+        "memory_cost": "1",
+        "name": "Blitz Attack",
+        "radius": 0,
+        "requires": [
+            "Warfare 2",
+            "Melee"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Blood Storm": {
+        "ap_cost": 4,
+        "cooldown": 5,
+        "description": "The sky weeps bloody tears. Bolts of coagulated blood fall on enemy characters in the area, setting Disease and Decaying Touch. Turns all water in the area into blood.",
+        "duration": "2",
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer-15-26.png",
+        "memory_cost": "3",
+        "name": "Blood Storm",
+        "radius": 0,
+        "requires": [
+            "Necromancer 3",
+            "Hydrosophist 3"
+        ],
+        "resist": "None",
+        "sp_cost": 3
+    },
+    "Blood Sucker": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Target character consumes blood surfaces around them, restoring Vitality. The more blood, the more they are healed!\nRestore up to 18 Vitality, depending on relevant surface area.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_blood_sucker-icon.png",
+        "memory_cost": "1",
+        "name": "Blood Sucker",
+        "radius": 0,
+        "requires": [
+            "Necromancer 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Bone Cage": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Increases Physical Armour by [X] and another [X] Physical Armour for each corpse in the area around you.\nSet Bone Cage for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_bone_cage-icon.png",
+        "memory_cost": "1",
+        "name": "Bone Cage",
+        "radius": 0,
+        "requires": [
+            "Necromancer 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Bouncing Shield": {
+        "ap_cost": 2,
+        "cooldown": 2,
+        "description": "Throw your shield at an enemy dealing [X] physical damage. Shield can bounce to another enemy in 5m range.\nDamage is based on the Physical Armour of your shield.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare-14-23.png",
+        "memory_cost": "1",
+        "name": "Bouncing Shield",
+        "radius": 0,
+        "requires": [
+            "Warfare 1",
+            "Shield"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Break the Shackles": {
+        "ap_cost": null,
+        "cooldown": 2,
+        "description": "Remove the following negative status effects from yourself: Slowed, Crippled, Chilled, Shocked, Suffocating, Atrophy, Diseased, Infectiuos Diseased and Shackles of Pain.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/break_the_shackles-icon.png",
+        "memory_cost": 0,
+        "name": "Break the Shackles",
+        "radius": 0,
+        "requires": [],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Breathing Bubble": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Creates a bubble of clean air around your head, allowing you to ignore effects of cloud surfaces. Immune to suffocation.\nSets Breathing Bubble for 5 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge-16-13.png",
+        "memory_cost": "1",
+        "name": "Breathing Bubble",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 1",
+            "Warfare 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Bull Horns": {
+        "ap_cost": null,
+        "cooldown": 6,
+        "description": "Magnificent horns sprout from your forehead, making you see red. You can rush at your enemies and gore them. Increases Retribution ability by 1 for the duration. Incompatible with Medusa Head.\nSet Bull Horns for 4 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-12-17.png",
+        "memory_cost": "1",
+        "name": "Bull Horns",
+        "radius": 0,
+        "requires": [
+            "Polymorph 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Cannibalise": {
+        "ap_cost": 1,
+        "cooldown": 1,
+        "description": "Destroy an allied summon or totem. Receive half of their Vitality, Physical Armour and Magic Armour.\nInstantly kills your target\nRestore up to 50% of target's Vitality, Physical Armour and Magic Armour on caster.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning_cannibalize-icon.png",
+        "memory_cost": "1",
+        "name": "Cannibalise",
+        "radius": 0,
+        "requires": [
+            "Summoning 3"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Chain Lightning": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "Shoot a stunning bolt of lightning that forks up to 8 times in a 8m radius and deals [X] Air Damage to each target.\nSets Shocked for 2 turn(s).\nDamage is based on your level and receives a bonus from Intelligence",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_superconductor-icon.png",
+        "memory_cost": "2",
+        "name": "Chain Lightning",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 3"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": 1
+    },
+    "Challenge": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Mark target enemy. If they die in the next 3 turns, you are healed and receive damage and armour bonuses. If target survives, their Vitality is healed to full and caster receives damage.\nApply Challenge to target, betting whether they will be dead in 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_challenge-icon.png",
+        "memory_cost": "1",
+        "name": "Challenge",
+        "radius": 0,
+        "requires": [
+            "Warfare 3"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Chameleon Cloak": {
+        "ap_cost": 1,
+        "cooldown": 6,
+        "description": "Grants you the ability to blend in with any enviroment as if invisible.\nSet Invisiblefor 2 turn(s).\nDoes not break Invisibility or Sneaking.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-9-25.png",
+        "memory_cost": "1",
+        "name": "Chameleon Cloak",
+        "radius": 0,
+        "requires": [
+            "Polymorph 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Chicken Claw": {
+        "ap_cost": 2,
+        "cooldown": 6,
+        "description": "Turn the target character into a chicken. Squawk!\nSet Chicken Formfor 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-12-14.png",
+        "memory_cost": "1",
+        "name": "Chicken Claw",
+        "radius": 0,
+        "requires": [
+            "Polymorph 1"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Chloroform": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Destroys [X] Magic Armour and then tries to set Sleeping.\nSet Sleeping for 1 turn(s).Does not break Invisibility or Sneaking.\nDamage is based on your level and receives bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel_chloroform-icon.png",
+        "memory_cost": "1",
+        "name": "Chloroform",
+        "radius": 0,
+        "requires": [
+            "Scoundrel 1"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Cleanse Wounds": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Heal target and create a water puddle beneath them. Remove Burning, Diseased, Decaying Touch, PoisonedandBleeding.\nRestore X Vitality",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist-16-24.png",
+        "memory_cost": "1",
+        "name": "Cleanse Wounds",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 1",
+            "Warfare 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Cloak and Dagger": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Teleport without breaking sneaking.\nDoes not break Invisibilty or Sneaking.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel-3-15.png",
+        "memory_cost": "1",
+        "name": "Cloak and Dagger",
+        "radius": 0,
+        "requires": [
+            "Scoundrel 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Closed Circuit": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "Deals [X] Air Damage to enemies around you; then creates cursed static clouds on the edges of the spell.\nSets Air Immunity for 1 turn(s). Sets Shocked for 2 turn(s)\nDamage is based on your level and receives a bonus from Intelligence",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_electric_fence-icon.png",
+        "memory_cost": "2",
+        "name": "Closed Circuit",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 3"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": 2
+    },
+    "Conjure Incarnate": {
+        "ap_cost": 2,
+        "cooldown": 6,
+        "description": "Conjure a personal elemental that matches the ground surface it's summoned onto. Your incarnate can be buffed with Infusions. Once you hit Summoning ability level of 10, a colossal Incarnate Champion will answer your summons!\nThe stats of the summons will depend on caster level and Summoning ability.",
+        "duration": "10",
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning_summon_incarnate-icon.png",
+        "memory_cost": "1",
+        "name": "Conjure Incarnate",
+        "radius": 0,
+        "requires": [
+            "Summoning 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Contamination": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Deals [X] Poison Damage to enemies and undead allies around you and can poison them. Turns water, blood surfaces and clouds in to poison!\nSet Poisoned for 2 turn(s).\nDamage is based on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer_contamination-icon.png",
+        "memory_cost": "1",
+        "name": "Contamination",
+        "radius": "2",
+        "requires": [
+            "Geomancer 1"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Corpse Explosion": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Explode the target corpse, dealing physical damage in the area\nBlows up your target.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-15-17.png",
+        "memory_cost": "1",
+        "name": "Corpse Explosion",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 1",
+            "Necromancer 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Corrosive Spray": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Destroy [X] Physical Armour on targets in a cone, and set Acid and Atrophy.\nSet Acid for 2 turn(s).Set Atrophy for 1 turn(s).\nDamage is based on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-16-27.png",
+        "memory_cost": "2",
+        "name": "Corrosive Spray",
+        "radius": 0,
+        "requires": [
+            "Geomancer 2",
+            "Necromancer 2"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": 1
+    },
+    "Corrosive Touch": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Destroy [X] Physical Armour on target character, and set Acid status.\nSet Acid for 2 turn(s).\nDamage is based on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-16-26.png",
+        "memory_cost": "1",
+        "name": "Corrosive Touch",
+        "radius": 0,
+        "requires": [
+            "Geomancer 1",
+            "Necromancer 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Corrupted Blade": {
+        "ap_cost": 3,
+        "cooldown": 4,
+        "description": "Dagger attack that deals [X] physical damage and sets Decay and Diseased.\nSet Decaying for 2 turn(s).Set Diseased for 2 turn(s).Damage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel-14-20.png",
+        "memory_cost": "1",
+        "name": "Corrupted Blade",
+        "radius": 0,
+        "requires": [
+            "Scoundrel 2",
+            "Dagger"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Crippling Blow": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Cripple the target with a sweeping blow, and all characters around it. Deals [X] physical damage.\nSet Crippled for 1 turn(s).\nDamage is based on your basic attack and receives a bonus from Strength.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_crippling_blow-icon.png",
+        "memory_cost": "1",
+        "name": "Crippling Blow",
+        "radius": 0,
+        "requires": [
+            "Warfare 1"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Cryogenic Stasis": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "Target ally becomes immune to all damage, and heals over time.\nSet Permafrost for 1 Turn(s)",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_cryogenic_statis-icon.png",
+        "memory_cost": "1",
+        "name": "Cryogenic Stasis",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Cryotherapy": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Consume Frozen surfaces around you and convert them to Magic Armour.\nRestore up to 34 Magic Armour depending on relevant surface area.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist-16-18.png",
+        "memory_cost": "1",
+        "name": "Cryotherapy",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 1",
+            "Huntsman 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Curse": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Curse target character or surface.\nSet Cursed for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/bless-icon.png",
+        "memory_cost": 1,
+        "name": "Curse",
+        "radius": 0,
+        "requires": [],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Cursed Electric Infusion": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Change Incarnate's element to cursed electricity, unlocking Electric Discharge and Closed Circuit.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge-16-16.png",
+        "memory_cost": "2",
+        "name": "Cursed Electric Infusion",
+        "radius": 0,
+        "requires": [
+            "Summoning 2",
+            "Aerotheurge 2"
+        ],
+        "resist": null,
+        "sp_cost": 2
+    },
+    "Daggers Drawn": {
+        "ap_cost": 4,
+        "cooldown": 6,
+        "description": "Whirl into a barrage of 5 stabs, each dealing [X] physical damage.\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel_daggers_drawn-icon.png",
+        "memory_cost": "2",
+        "name": "Daggers Drawn",
+        "radius": 0,
+        "requires": [
+            "Scoundrel 3",
+            "Dagger"
+        ],
+        "resist": null,
+        "sp_cost": 2
+    },
+    "Dazing Bolt": {
+        "ap_cost": 3,
+        "cooldown": 4,
+        "description": "An electrical bolt falls from the sky, dealing [X] Air Damage to characters and items in the area, and setting Shocked status.\nSets Shocked for 1 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.\n",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_dazing_bolt-icon.png",
+        "memory_cost": 1,
+        "name": "Dazing Bolt",
+        "radius": ,
+        "requires": ["Aerotheurge 2"],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Death Wish": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Target character receives a damage bonus equal to the percentage of their lost Vitality. For example, a character with 30% Vitality will gain a 70% damage bonus. However, they also receive [X] piercing damage each turn!\nSet Death Wish for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_death_wish-icon.png",
+        "memory_cost": "1",
+        "name": "Death Wish",
+        "radius": 0,
+        "requires": [
+            "Necromancer 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Decaying Touch": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Deal phyiscal damage to target character. Sets Decay, so the target will take piercing damage from healing spells and potions.\nSet Decaying for 2 turn(s).\nDamage is based on your level and receives bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_decaying_touch-icon.png",
+        "memory_cost": "1",
+        "name": "Decaying Touch",
+        "radius": 0,
+        "requires": [
+            "Necromancer 1"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Deep Freeze": {
+        "ap_cost": 4,
+        "cooldown": 6,
+        "description": "Targets in the cone that are frozen and under 20% Vitality shatter and instantly die. Otherwise they receive [X] Water Damage and become Frozen.\nInstantly kill targets with Frozen status below 10% Vitality.Set Frozen for 1 Turn(s)\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_deep_freeze-icon.png",
+        "memory_cost": "1",
+        "name": "Deep Freeze",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 3"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Deflective Barrier": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Projectiles that hit you are reflected back at the caster. This does not prevent the original projectile effects. Provides7 Physical Armour.\nSet Deflecting for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_deflective_barrier-icon.png",
+        "memory_cost": "1",
+        "name": "Deflective Barrier",
+        "radius": 0,
+        "requires": [
+            "Warfare 2",
+            "Shield"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Demonic Stare": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Drain [X] Magic Armour from target character and gain that amount yourself.\nRestore up to 8 Magic Armour depending on damage tha will deal.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/demonic_stare-icon.png",
+        "memory_cost": 0,
+        "name": "Demonic Stare",
+        "radius": 0,
+        "requires": [],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Deploy Mass Traps": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "Throw 4 explosive traps at target locations. Each trap takes a turn to activate. When active, trap will explode when a character approaches it.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-15-28.png",
+        "memory_cost": "2",
+        "name": "Deploy Mass Traps",
+        "radius": "3",
+        "requires": [
+            "Pyrokinetic 2",
+            "Huntsman 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Dimensional bolt": {
+        "ap_cost": 2,
+        "cooldown": 1,
+        "description": "Shoot a volatile bolt that deals [X] of a random type, and then creates a corresponding surface\nDamage is based on your level and receives bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning_dimensional_bolt-icon.png",
+        "memory_cost": "1",
+        "name": "Dimensional bolt",
+        "radius": 0,
+        "requires": [
+            "Summoning 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Dome of Protection": {
+        "ap_cost": 1,
+        "cooldown": 6,
+        "description": "Create a magical field that restores Magic and Physical Armour and increases elemental resistances on allies in the area.\nRestore Physical Armour + Magical Armour",
+        "duration": 5,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning_circle_of_protection-icon.png",
+        "memory_cost": 0,
+        "name": "Dome of Protection",
+        "radius": 0,
+        "requires": [],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Dominate Mind": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "Charm target non-allied character, causing them to join your side in combat for the duration of the status.\nSet Charmed for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning-18-6.png",
+        "memory_cost": "1",
+        "name": "Dominate Mind",
+        "radius": 0,
+        "requires": [
+            "Summoning 2"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Door to Eternity": {
+        "ap_cost": 3,
+        "cooldown": null,
+        "description": "Give all summons around you a status that prevents them from dying to damage or disappearing when their life runs out.\nSet Persisting for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer-15-5.png",
+        "memory_cost": "2",
+        "name": "Door to Eternity",
+        "radius": 0,
+        "requires": [
+            "Summoning 3"
+        ],
+        "resist": null,
+        "sp_cost": 2
+    },
+    "Dragon's Blaze": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Breathe flames in a cone, dealing [X] fire damage and leaving fire surface behind.\nSet Burning for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/dragons_blaze-icon.png",
+        "memory_cost": 0,
+        "name": "Dragon's Blaze",
+        "radius": 0,
+        "requires": [],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Dust Blast": {
+        "ap_cost": 3,
+        "cooldown": 3,
+        "description": "Throw dust at all enemies in range, blinding them and dealing [X] Earth Damage.\nSet Blinded for 2 turn(s).\nDamage is based on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-17-10.png",
+        "memory_cost": "2",
+        "name": "Dust Blast",
+        "radius": "2",
+        "requires": [
+            "Geomancer 2",
+            "Huntsman 2"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": 1
+    },
+    "Earthquake": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "Deals [X] Earth Damage and Knockdown enemy characters and items around you. Creates 8 random oil surfaces within the area\nSet Knocked Down for 1 turn(s).\nDamage is based on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-1-22.png",
+        "memory_cost": "1",
+        "name": "Earthquake",
+        "radius": 0,
+        "requires": [
+            "Geomancer 2"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Electric Discharge": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "An electrical jolt deals air damage to target character. Sets status Shocked.\nSets Shocked for 2 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_lightning_bolt-icon.png",
+        "memory_cost": "1",
+        "name": "Electric Discharge",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 1"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Electric Infusion": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Change Incarnate's element to electricity, unlocking Electric Discharge.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning_electric_infusion-icon.png",
+        "memory_cost": "1",
+        "name": "Electric Infusion",
+        "radius": 0,
+        "requires": [
+            "Summoning 1",
+            "Aerotheurge 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Elemental Arrowheads": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Target a surface in melee radius. For one turn, elemental damage matching that surface is added to your ranged weapon attacks and ranged weapon-based skills.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman-15-4.png",
+        "memory_cost": "1",
+        "name": "Elemental Arrowheads",
+        "radius": 0,
+        "requires": [
+            "Huntsman 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Elemental Totem": {
+        "ap_cost": 2,
+        "cooldown": 1,
+        "description": "Target a ground surface and conjure a totem of the corresponding element. Each turn, this totem will fire a projectile at enemies in sight.\nThe stats of the summons will depend on caster level and Summoning ability.",
+        "duration": "3",
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning-12-29.png",
+        "memory_cost": "1",
+        "name": "Elemental Totem",
+        "radius": 0,
+        "requires": [
+            "Summoning 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Encourage": {
+        "ap_cost": 1,
+        "cooldown": 6,
+        "description": "Encourage allies around you, increasing their primary attributes.\nSet Enouraged for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare-4-29.png",
+        "memory_cost": 0,
+        "name": "Encourage",
+        "radius": 0,
+        "requires": [],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Enrage": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Motivate an allied character with the power of rage. Target allied character is garaunteed to land critical hits with basic attacks and weapon skills, but is muted. Clears Taunted, Terrified, Charmed, Mad and Clear-Minded statuses.\nSet Enraged for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_enrage-icon.png",
+        "memory_cost": "1",
+        "name": "Enrage",
+        "radius": 0,
+        "requires": [
+            "Warfare 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Epidemic of Fire": {
+        "ap_cost": 3,
+        "cooldown": 6,
+        "description": "Fire a cursed flame that will fork on impact up to 5 times, dealing [X] Fire Damage and leaving a cursed fire surface in its wake.\nSet Necrofire for 2 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-18-2.png",
+        "memory_cost": "3",
+        "name": "Epidemic of Fire",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 3"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": 2
+    },
+    "Equalise": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "Vitality and Armour percentages of characters in target area are summed up and redistributed equally.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph_equalise-icon.png",
+        "memory_cost": "1",
+        "name": "Equalise",
+        "radius": 0,
+        "requires": [
+            "Polymorph 3"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Erratic Wisp": {
+        "ap_cost": 1,
+        "cooldown": 6,
+        "description": "Cause target character to teleport in a random direction each time they are attacked. Increases Air Resistance by 40%\nSets Erratic Wisp for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_erratic_wisp-icon.png",
+        "memory_cost": "1",
+        "name": "Erratic Wisp",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 1",
+            "Huntsman 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Ethereal Storm": {
+        "ap_cost": 4,
+        "cooldown": 5,
+        "description": "Unpredictable projectiles from distant planes strike target area, dealing random elemental damage to enemies or healing allies.",
+        "duration": "2",
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning-14-17.png",
+        "memory_cost": "3",
+        "name": "Ethereal Storm",
+        "radius": 0,
+        "requires": [
+            "Summoning 5"
+        ],
+        "resist": null,
+        "sp_cost": 3
+    },
+    "Evasive Aura": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Your dodging is increased by 90% and your Movement Speed is increased by 1m.\nSets Evasive Aura for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge-17-0.png",
+        "memory_cost": "2",
+        "name": "Evasive Aura",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 2",
+            "Huntsman 2"
+        ],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Fan of Knives": {
+        "ap_cost": 3,
+        "cooldown": 2,
+        "description": "Fling a dagger at every enemy around you, dealing [X] physical damage. Can backstab!\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel-15-7.png",
+        "memory_cost": "2",
+        "name": "Fan of Knives",
+        "radius": 0,
+        "requires": [
+            "Scoundrel 3",
+            "Dagger"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Farsight": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Increase the range of a targeted character's ranged attacks and skills by 3m.\nSet Farsight for 3 Turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman-15-24.png",
+        "memory_cost": "2",
+        "name": "Farsight",
+        "radius": 0,
+        "requires": [
+            "Huntsman 3"
+        ],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Farsight Infusion": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Unlock a ranged attack for your Incarnate. Provides [X] Magic Armour (amount depends on your level)\nSet Farsight Infusion.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning_ranged_infusion-icon.png",
+        "memory_cost": "1",
+        "name": "Farsight Infusion",
+        "radius": 0,
+        "requires": [
+            "Summoning 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Favourable Wind": {
+        "ap_cost": 1,
+        "cooldown": 6,
+        "description": "Control the forces of nature so the wind is literally at your party's back. An aura increases you allies' movement speeds while they stay close to you.\nSets Favourable Winds Aura for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_favourable_wind-icon.png",
+        "memory_cost": "1",
+        "name": "Favourable Wind",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Fire Infusion": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Change Incarnate's element tofire, unlocking Fireball.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-13-7.png",
+        "memory_cost": "1",
+        "name": "Fire Infusion",
+        "radius": 0,
+        "requires": [
+            "Summoning 1",
+            "Pyrokinetic 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Fire Whip": {
+        "ap_cost": 3,
+        "cooldown": 3,
+        "description": "Long-range attack that deals [X] Fire Damage to a single target, leaving them blind and burning.\nSet Burning for 1 Turn(s).Set Blinded for 1 Turn(s)\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_fire_whip-icon.png",
+        "memory_cost": "1",
+        "name": "Fire Whip",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 2"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Fireball": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "Hurl a fiery sphere that will explode, dealing [X] Fire Damage.\nSet Burning for 2 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_fireball-icon.png",
+        "memory_cost": "1",
+        "name": "Fireball",
+        "radius": "3",
+        "requires": [
+            "Pyrokinetic 2"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Firebrand": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "An aura that adds [X] Fire Damage for weapon skills and attacks for all allies near you.\nSet Firebrand for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_fire_brand-icon.png",
+        "memory_cost": "1",
+        "name": "Firebrand",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 3"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "First Aid": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Heals target for 8 Vitality. Cures Crippled, Knocked Down, Blind, Silence, Bleeding, Burning, Poisoned, Diseased.\nRestore 8 Vitality.\nSet Rested for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman_first_aid-icon.png",
+        "memory_cost": "1",
+        "name": "First Aid",
+        "radius": 0,
+        "requires": [
+            "Huntsman 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Flaming Crescendo": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Curse the target to explode in 3 turns or on death.\nSet Flaming Crescendo for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_flaming_crescendo-icon.png",
+        "memory_cost": "1",
+        "name": "Flaming Crescendo",
+        "radius": "3",
+        "requires": [
+            "Pyrokinetic 3"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Flaming Skin": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "You get immunity to fire, but lowered resistance to water. You bleed fire.\nSet Flaming Skin for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-15-15.png",
+        "memory_cost": "2",
+        "name": "Flaming Skin",
+        "radius": 0,
+        "requires": [
+            "Polymorph 2",
+            "Pyrokinetic 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Flaming Tongues": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Flaming tongues protect you, immediately attacking approaching enemies.\nSet Flaming Tongues for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_flaming_tongues-icon.png",
+        "memory_cost": "1",
+        "name": "Flaming Tongues",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Flay Skin": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "Destroy [X] Magic Armour on target character. Set status that halves resistances.\nSet Nullified Resistance for 2 turn(s).\nDamage is based on your level and receives bonus from Strength.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-16-3.png",
+        "memory_cost": "1",
+        "name": "Flay Skin",
+        "radius": 0,
+        "requires": [
+            "Polymorph 3"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Flesh Sacrifice": {
+        "ap_cost": null,
+        "cooldown": 5,
+        "description": "Gain 1 Action Point immediately and a 10% damage boost for 2 turns at the cost of -1 Constitution. Any Action Points over your maximum are lost.\nSet Flesh Sacrificefor 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/flesh_sacrifice-icon.png",
+        "memory_cost": 0,
+        "name": "Flesh Sacrifice",
+        "radius": 0,
+        "requires": [],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Flurry": {
+        "ap_cost": 3,
+        "cooldown": 1,
+        "description": "Peform 3 quick attacks, dealing [X] physical damage.\nDamage is based on your basic attack and receives a bonus from the Attribute of your Weapon. Requires a Melee Weapon",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/all_in-attack.png",
+        "memory_cost": 0,
+        "name": "Flurry",
+        "radius": 0,
+        "requires": [],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Forced Exchange": {
+        "ap_cost": 1,
+        "cooldown": 1,
+        "description": "Exchange Vitality percentages with target character.\nExchange vitality percentages with target character.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph_forced_exchange-icon.png",
+        "memory_cost": "2",
+        "name": "Forced Exchange",
+        "radius": 0,
+        "requires": [
+            "Polymorph 3"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": 2
+    },
+    "Fortify": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Provides 7 Physical Armour. While Fortified, the target cannot be teleported. Removes Poisoned, Bleeding, Burning, Acid, Decaying.\nSet Fortified for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer_fortify-icon.png",
+        "memory_cost": "1",
+        "name": "Fortify",
+        "radius": 0,
+        "requires": [
+            "Geomancer 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Fossil Strike": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "A giant rock with sticky oil that deals [X] Earth Damage. Creates an oil surface where it lands.\nDamage is bases on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer_fossil_strike-icon.png",
+        "memory_cost": "1",
+        "name": "Fossil Strike",
+        "radius": "2",
+        "requires": [
+            "Geomancer 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Gag Order": {
+        "ap_cost": 3,
+        "cooldown": 4,
+        "description": "Destroy [X] Magic Armour on target character. Silence target.\nSet Silenced for 1 turnDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel-15-25.png",
+        "memory_cost": 1,
+        "name": "Gag Order",
+        "radius": 0,
+        "requires": ["Scoundrel 2", "Dagger"],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Glitter Dust": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Target is marked, reducing its ability to dodge. Prevents target from going invisible.\nSet Marked for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman_mark-icon.png",
+        "memory_cost": "1",
+        "name": "Glitter Dust",
+        "radius": 0,
+        "requires": [
+            "Huntsman 3"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Global Cooling": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Set Chilled on enemies around you and deal [X] Water Damage. Freeze all succeptible surfaces.\nSet Chilled for 3 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_global_cooling-icon.png",
+        "memory_cost": "1",
+        "name": "Global Cooling",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 2"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Grasp Of The Starved": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Undead hands rise from underground, attacking characters that stand in blood surfaces and clouds. Deals [X] physical damage to each character and sets Crippled.\nSet Crippled for 2 turn(s).\nDamage is based on your level and receives bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_grasp_of_the_starved-icon.png",
+        "memory_cost": 2,
+        "name": "Grasp Of The Starved",
+        "radius": 0,
+        "requires": ["Necromancer 3"],
+        "resist": "physical_armour-icon",
+        "sp_cost": 2
+    },
+    "Guardian Angel": {
+        "ap_cost": 2,
+        "cooldown": 6,
+        "description": "Allies in melee range redirect 50% of received damage to you.\nSet Guardian Angel Aura for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_guardian_angel-icon.png",
+        "memory_cost": "1",
+        "name": "Guardian Angel",
+        "radius": 0,
+        "requires": [
+            "Warfare 3"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Hail Storm": {
+        "ap_cost": 4,
+        "cooldown": 4,
+        "description": "20 ice shards fall from the sky, each dealing [X] Water Damage to characters within 13m range from impact.\nSet Chilled for 1 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_hail_strike-icon.png",
+        "memory_cost": "3",
+        "name": "Hail Storm",
+        "radius": "4",
+        "requires": [
+            "Hydrosophist 5"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": 3
+    },
+    "Hail Strike": {
+        "ap_cost": 3,
+        "cooldown": 3,
+        "description": "Icicles fall from the sky, chilling enemies and dealing water damage. They create ice surfaces where they hit the ground.\nSet Chilled for 2 turn(s).\nDamages is based on your level and receives bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_hail_strike-icon.png",
+        "memory_cost": "1",
+        "name": "Hail Strike",
+        "radius": "1",
+        "requires": [
+            "Hydrosophist 1"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Haste": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Sets Hasted on target character. Hasted increases movement speed by 2m per AP and gives an additional 1 AP per turn. Clears Slowed and Crippled.\nSet Hasted for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_haste-icon.png",
+        "memory_cost": "1",
+        "name": "Haste",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Healing Ritual": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Shoot a bolt of healing energy that will jump to nearby allies.\nRestore 7 Vitality",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_healing_ritual-icon.png",
+        "memory_cost": "1",
+        "name": "Healing Ritual",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Healing Tears": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Three healing tears circle around you. Everytime an ally walks into melee range near you, a healing tear bathes them.\nSet Healing Tears for 3 Turn(s)",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist-16-22.png",
+        "memory_cost": "1",
+        "name": "Healing Tears",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 1",
+            "Polymorph 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Heart of Steel": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Your heart pumps liquid metal, creating a robust layer of Physical Armor. This regenerates each turn.\nRestore 3 Physical Armour for 4 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-12-16.png",
+        "memory_cost": "1",
+        "name": "Heart of Steel",
+        "radius": 0,
+        "requires": [
+            "Polymorph 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Ice Fan": {
+        "ap_cost": 3,
+        "cooldown": 4,
+        "description": "Target 3 positions and shoot an ice shard at each one, dealing [X] Water Damage and making targets Chilled.\nSet Chilled for 1 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_ice_fan-icon.png",
+        "memory_cost": "1",
+        "name": "Ice Fan",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 2"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Ice Infusion": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Change Incarnate's element to blessed ice, unlocking Restoration and Healing Ritual.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist-15-27.png",
+        "memory_cost": 2,
+        "name": "Ice Infusion",
+        "radius": 0,
+        "requires": ["Summoning 2", "Hydrosophist 2"],
+        "resist": null,
+        "sp_cost": 2
+    },
+    "Icy Skin": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "You get immunity to water, but lowered resistance to fire. You bleed ice.\nSet Icy Skin for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist-16-21.png",
+        "memory_cost": "2",
+        "name": "Icy Skin",
+        "radius": 0,
+        "requires": [
+            "Polymorph 2",
+            "Hydrosophist 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Ignition": {
+        "ap_cost": 1,
+        "cooldown": 2,
+        "description": "Sets enemy characters around you on fire. Deals [X] fire damage to each. Ignites all susceptible surfaces.\nSet Buring for 2 turn(s).\nDamage is based on your level and receives bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_ignition-icon.png",
+        "memory_cost": "1",
+        "name": "Ignition",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 1"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Impalement": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "Spikes impale all characters and items, setting Crippled and dealing [X] Earth Damage. Also creates an oil puddle.\nSet Crippled for 1 turn(s).\nDamage is based on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer_impalement-icon.png",
+        "memory_cost": "1",
+        "name": "Impalement",
+        "radius": 0,
+        "requires": [
+            "Geomancer 2"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Infect": {
+        "ap_cost": 3,
+        "cooldown": 3,
+        "description": "Deal [X] phyiscal damage.Infect a target with a disease that will spread to other nearby characters. Diseased characters deal reduced damage with all attacks and have lowered Constitution.\nSet Infected for 2 turn(s).\nDamage is based on your level and receives bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_infect-icon.png",
+        "memory_cost": "1",
+        "name": "Infect",
+        "radius": 0,
+        "requires": [
+            "Necromancer 2"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Infectious Flame": {
+        "ap_cost": 2,
+        "cooldown": 6,
+        "description": "Send a cursed flame that will split on impact up to five times, dealingX-Y fire damage and leaving a cursed fire surface behind\nSet Burning for 2 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_infectious_flame-icon.png",
+        "memory_cost": "?",
+        "name": "Infectious Flame",
+        "radius": 1,
+        "requires": ["Pyrokinetic ?"],
+        "resist": "magic_armour-icon",
+        "sp_cost": 1
+    },
+    "Jellyfish Skin": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Bleed electrified water. You get immunity to electricity, but lowered resistance to poison and earth damage.\nSet Jellyfish Skin for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge-16-12.png",
+        "memory_cost": "2",
+        "name": "Jellyfish Skin",
+        "radius": 0,
+        "requires": [
+            "Polymorph 2",
+            "Aerotheurge 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Laser Ray": {
+        "ap_cost": 3,
+        "cooldown": 3,
+        "description": "Line of intese heat that deals [X] Fire Damage to characters and leaves fire clouds behind.\nSet Burning for 2 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_laser_ray-icon.png",
+        "memory_cost": "1",
+        "name": "Laser Ray",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 2"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Last Rites": {
+        "ap_cost": 3,
+        "cooldown": null,
+        "description": "Sacrifice yourself to bring an ally back to life. Deals [X] piercing damage to you, and resurrects target character with maximum Vitality.\nSet Potion.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_last_rites-icon.png",
+        "memory_cost": "1",
+        "name": "Last Rites",
+        "radius": 0,
+        "requires": [
+            "Necromancer 3"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Living Wall": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Vines sprout from the ground to block the path in the target area, emitting poison clouds around them.",
+        "duration": "2",
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-14-28.png",
+        "memory_cost": "1",
+        "name": "Living Wall",
+        "radius": 0,
+        "requires": [
+            "Geomancer 3"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Living on the Edge": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "For 2 turns your character's Vitality cannot be reduced below 1 point, keeping them alive against all odds. If the target is a summon, their lifetime will be prolonged for the duration.\nSet Death Resist for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer-17-9.png",
+        "memory_cost": "1",
+        "name": "Living on the Edge",
+        "radius": 0,
+        "requires": [
+            "Necromancer 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Maddening Song": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Sing, causing characters in your target area to become Mad. Maddened characters will attack those nearest them, regardless of alignment.\nSet Mad for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/maddening_song-icon.png",
+        "memory_cost": 0,
+        "name": "Maddening Song",
+        "radius": 0,
+        "requires": [],
+        "resist": "magic_armour-icon",
+        "sp_cost": 1
+    },
+    "Marksman's Fang": {
+        "ap_cost": 2,
+        "cooldown": 2,
+        "description": "Shoot an arrow that goes straight through enemies. Each enemy that's hit takes [X] piercing damage, ignoring armour.\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman_piercing_shot-icon.png",
+        "memory_cost": "1",
+        "name": "Marksman's Fang",
+        "radius": 0,
+        "requires": [
+            "Huntsman 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Mass Breathing Bubbles": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Set Breathing Bubbles on allieas around you, allowing them to ignore effects of cloud surfaces and making them immune to suffocation.\nSets Mass Breathing Bubbles for 5 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge-16-14.png",
+        "memory_cost": "2",
+        "name": "Mass Breathing Bubbles",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 2",
+            "Warfare 2"
+        ],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Mass Cleanse Wounds": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Heal yourself and allies around you. Create a water puddle beneath every target. Remove Necrofire, Burning, Diseased, Decaying Touch, Poisoned, Bleeding, Suffocation and Acid.\nRestore 15 Vitality",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist-16-23.png",
+        "memory_cost": "2",
+        "name": "Mass Cleanse Wounds",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 2",
+            "Warfare 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Mass Corpse Explosion": {
+        "ap_cost": 1,
+        "cooldown": 2,
+        "description": "Explode all corpses around you, dealing physical damage in the area\nBlows up your target.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-15-18.png",
+        "memory_cost": "2",
+        "name": "Mass Corpse Explosion",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 2",
+            "Necromancer 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Mass Cryotherapy": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Each ally consumes Frozen surfaces around them, converting the frozen surfaces to Magic Armour.\nRestore up to 34 Magic Armour depending on relevant surface area.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist-16-17.png",
+        "memory_cost": "2",
+        "name": "Mass Cryotherapy",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 2",
+            "Huntsman 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Mass Oily Carapace": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Each ally consumes oil surfaces around them, converting the oil surfaces to Physical Armour.\nRestore up to 34 Physical Armour, depending on relevant surface area.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-17-13.png",
+        "memory_cost": "2",
+        "name": "Mass Oily Carapace",
+        "radius": 0,
+        "requires": [
+            "Geomancer 2",
+            "Warfare 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Mass Sabotage": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Explode two random grenades or arrows in the inventories of any enemy in a target circle.\nExplodes 2 random Arrow(s) or Grenade(s) on target's inventory.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-15-30.png",
+        "memory_cost": "2",
+        "name": "Mass Sabotage",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 2",
+            "Scoundrel 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Master of Sparks": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Target character and surrounding allies receive Sparkmaster status that adds a chance of fiery sparks to melee attacks.\nSet Sparkmaster for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-15-16.png",
+        "memory_cost": "2",
+        "name": "Master of Sparks",
+        "radius": "3",
+        "requires": [
+            "Pyrokinetic 2",
+            "Warfare 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Medusa Head": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Snakes grow out of your head, giving you a petrifying aura and the Petrifying Visage skill. Incompatible with Bull Horns.\nSet Medusa Head for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-16-5.png",
+        "memory_cost": "1",
+        "name": "Medusa Head",
+        "radius": 0,
+        "requires": [
+            "Polymorph 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Mend Metal": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Allies near you start slowly regenerating Physical Armour.\nRestore 3 Physical Armour for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer_mend_metal-icon.png",
+        "memory_cost": "1",
+        "name": "Mend Metal",
+        "radius": 0,
+        "requires": [
+            "Geomancer 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Meteor Shower": {
+        "ap_cost": 4,
+        "cooldown": 4,
+        "description": "25 fireballs come crashing from the sky. Each does [X] Fire Damage within a 3m range from impact.\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-18-1.png",
+        "memory_cost": "3",
+        "name": "Meteor Shower",
+        "radius": "3",
+        "requires": [
+            "Pyrokinetic 5"
+        ],
+        "resist": null,
+        "sp_cost": 3
+    },
+    "Mortal Blow": {
+        "ap_cost": 2,
+        "cooldown": null,
+        "description": "Deal [X] physical damage. Damage is doubled if you are sneaking or invisible. Target is killed instantly if below 20% Vitality.\nInstantly kill target below 20% Vitality.\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel-18-3.png",
+        "memory_cost": "3",
+        "name": "Mortal Blow",
+        "radius": 0,
+        "requires": [
+            "Scoundrel 5",
+            "Dagger"
+        ],
+        "resist": null,
+        "sp_cost": 3
+    },
+    "Mosquito Swarm": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "Unleash a swarm of giant mosquitos to suck the blood from your enemies, dealing physical damage and healing yourself.\nRestore up to 9 Vitality, depending on the damage dealt.Set Bleeding for 2 turn(s).\nDamage is based on your level and receives bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_mosquito_swarm-icon.png",
+        "memory_cost": "1",
+        "name": "Mosquito Swarm",
+        "radius": 0,
+        "requires": [
+            "Necromancer 1"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Necrofire Infusion": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Change Incarnate's element to necrofire, unlocking Fireball and Epidemic of Fire.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-15-19.png",
+        "memory_cost": "2",
+        "name": "Necrofire Infusion",
+        "radius": 0,
+        "requires": [
+            "Summoning 2",
+            "Pyrokinetic 2"
+        ],
+        "resist": null,
+        "sp_cost": 2
+    },
+    "Nether Swap": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Make two characters switch places. One of the characters can be you.\nSets Nether Swap for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_netherswap-icon.png",
+        "memory_cost": "1",
+        "name": "Nether Swap",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Oily Carapace": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Consume oil surfaces around you and convert them to Physical Armour.\nRestore up to 34 Physical Armour, depending on relevant surface area.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-17-13.png",
+        "memory_cost": "1",
+        "name": "Oily Carapace",
+        "radius": 0,
+        "requires": [
+            "Geomancer 1",
+            "Warfare 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Onslaught": {
+        "ap_cost": 4,
+        "cooldown": 6,
+        "description": "Attack five times with astonishing speed, each hit dealing [X] physical damage.\nDamage is based on your basic attack and receives a bonus from Strength.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare-16-0.png",
+        "memory_cost": "2",
+        "name": "Onslaught",
+        "radius": 0,
+        "requires": [
+            "Warfare 3",
+            "Melee"
+        ],
+        "resist": "None",
+        "sp_cost": 2
+    },
+    "Overpower": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Deals [X] physical damage. If your Physical Armour is higher than your opponent's, destroy all their Physical Armour. Can set Knocked Down.\nSet Knocked Down for 1 turn(s).\nDamage is based on your basic attack and receives a bonus from Strength.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_overpower-icon.png",
+        "memory_cost": "3",
+        "name": "Overpower",
+        "radius": 0,
+        "requires": [
+            "Warfare 5",
+            "Melee"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": 1
+    },
+    "Peace of Mind": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Target gains Clear-Minded, which increases Strength, Finesse, Intelligence and Wits by 1. Removes Blinded, Terrified, Charmed, Taunted, Sleeping, Enraged and Mad.\nSet Clear-Minded for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_burn_my_eyes-icon.png",
+        "memory_cost": "1",
+        "name": "Peace of Mind",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Petrifying Touch": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "Turn a nearby target to stone, incipacitating it. Deal [X] earth damage. Removes Bleeding, Burning, Poisoned and Crippled.\nSet Petrified for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer_petrifying_touch-icon.png",
+        "memory_cost": 0,
+        "name": "Petrifying Touch",
+        "radius": 0,
+        "requires": [],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Phoenix Dive": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Leap through the air to a target position, creating a fire surface upon landing.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_phoenix_dive-icon.png",
+        "memory_cost": "1",
+        "name": "Phoenix Dive",
+        "radius": 0,
+        "requires": [
+            "Warfare 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Pin Down": {
+        "ap_cost": 3,
+        "cooldown": 3,
+        "description": "Deal [X] physical damage and Cripple target character.\nSet Crippled for 1 turn(s).\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman_pin_down-icon.png",
+        "memory_cost": "1",
+        "name": "Pin Down",
+        "radius": 0,
+        "requires": [
+            "Huntsman 1"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Planar Gateway": {
+        "ap_cost": 2,
+        "cooldown": 6,
+        "description": "Conjure two linked gateways that allow any character to instantly travel between them.",
+        "duration": "10",
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning-14-18.png",
+        "memory_cost": "2",
+        "name": "Planar Gateway",
+        "radius": 0,
+        "requires": [
+            "Summoning 3"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Play Dead": {
+        "ap_cost": null,
+        "cooldown": 6,
+        "description": "Fool enemies into thinking you're dead. Cooldown of skills will be paused. Any action you take will cancel this status.\nSet Playing Dead for 3 turn(s).Does not break Invisibility or Sneaking.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer-15-20.png",
+        "memory_cost": 0,
+        "name": "Play Dead",
+        "radius": 0,
+        "requires": [],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Poison Dart": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "Cast a magical poisonous dart that does [X] Poison Damage, and creates a puddle of poison.\nSet Poisoned for 3 turn(s).\nDamage is bases on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer_magic_poison_dart-icon.png",
+        "memory_cost": "1",
+        "name": "Poison Dart",
+        "radius": "1",
+        "requires": [
+            "Geomancer 1"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Poison Infusion": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Change Incarnate's element to poison, unlocking Poison Dart.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-13-4.png",
+        "memory_cost": "1",
+        "name": "Poison Infusion",
+        "radius": 0,
+        "requires": [
+            "Summoning 1",
+            "Geomancer 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Poison Wave": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "Poison erupts from the caster in a circular wave, dealing [X] Poison Damage and forming poison clouds. Gives immunity to poison and earth damage for 1 turn\nSet Earth Immunity for 1 turn(s).\nDamage is based on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-14-15.png",
+        "memory_cost": "1",
+        "name": "Poison Wave",
+        "radius": 0,
+        "requires": [
+            "Geomancer 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Poisonous Skin": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "You get immunity to poison and earth, but lowered resistance to air. You bleed poison.\nSet Poisonous Skin for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-17-8.png",
+        "memory_cost": "2",
+        "name": "Poisonous Skin",
+        "radius": 0,
+        "requires": [
+            "Polymorph 2",
+            "Geomancer 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Power Infusion": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Unlock Whirlwind and Rush for your Incarnate. Provides [X] Physical Armour (amount depends on your level).\nSet Power Infusion.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning_power_infusion-icon.png",
+        "memory_cost": "1",
+        "name": "Power Infusion",
+        "radius": 0,
+        "requires": [
+            "Summoning 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Pressure Spike": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Condense all cloud surfaces in the area. Deals air damage to enemies and douses fire.\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/3.png",
+        "memory_cost": "1",
+        "name": "Pressure Spike",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Provoke": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Taunt the enemies around you. Provoke and tease them so that they want to atack you.\nSet Taunted for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare-5-5.png",
+        "memory_cost": "1",
+        "name": "Provoke",
+        "radius": 0,
+        "requires": [
+            "Warfare 2"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Purge": {
+        "ap_cost": 1,
+        "cooldown": 2,
+        "description": "Consume a corpse to gain a Source Point, or steal a Source Point from a living character.\nSet Drain.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/source-4-26.png",
+        "memory_cost": 0,
+        "name": "Purge",
+        "radius": 0,
+        "requires": [],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Pyroclastic Eruption": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "Multiple oil-filled rocks erupt from the caster at all enemies in the area. On impact, they create oil surfaces and deal [X] Earth Damage.\nDamage is based on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer_pyroclastic_eruption-icon.png",
+        "memory_cost": "3",
+        "name": "Pyroclastic Eruption",
+        "radius": "3",
+        "requires": [
+            "Geomancer 5"
+        ],
+        "resist": null,
+        "sp_cost": 3
+    },
+    "Rain": {
+        "ap_cost": 1,
+        "cooldown": 6,
+        "description": "Create a spreading water surface which douses fires. Set Wet status on characters in the area.\nSet Wet for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_rain-icon.png",
+        "memory_cost": "1",
+        "name": "Rain",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Raining Blood": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Create blood surfaces. Set bleeding on enemies. Douse fire surfaces.\nSet Bleeding for 2 turn(s).",
+        "duration": "1",
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_rain_of_blood-icon.png",
+        "memory_cost": "1",
+        "name": "Raining Blood",
+        "radius": 0,
+        "requires": [
+            "Necromancer 1",
+            "Hydrosophist 1"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Raise Bloated Corpse": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Targeta corpse to raise a bloated cadaver that fights for you. It can explode, dealing Physical Damage.\nA bloated corpse will be summoned at the location of your target(s). Blows up your target.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer-raise-bloated-corpse.png",
+        "memory_cost": "1",
+        "name": "Raise Bloated Corpse",
+        "radius": 0,
+        "requires": [
+            "Necromancer 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Raise Bone Widow": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "Raise a walking pile of bones which can consume corpses to restore Vitality and receive a stacking damage buff.\nThe stats of the summons will depend on caster level and Summoning ability.",
+        "duration": "5",
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer-14-27.png",
+        "memory_cost": "1",
+        "name": "Raise Bone Widow",
+        "radius": 0,
+        "requires": [
+            "Necromancer 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Rallying Cry": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Target character regenerates Vitality and Magic Armour according to the number of allied characters and totems in their vicinity.\nRestore 4 Vitality. Restore 2 Magic Armour",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning_harmony-icon.png",
+        "memory_cost": "1",
+        "name": "Rallying Cry",
+        "radius": 0,
+        "requires": [
+            "Summoning 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Reactive Armour": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Deal [X] Physical Damage, based on your current Physical Armour, in a wave of metal spikes to everyone in the area (Including Yourself)\nDamage is based on your current Physical Armour.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-14-29.png",
+        "memory_cost": "1",
+        "name": "Reactive Armour",
+        "radius": 0,
+        "requires": [
+            "Geomancer 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Reactive Shot": {
+        "ap_cost": 2,
+        "cooldown": 2,
+        "description": "Target a circular area. Until your next turn, you will reflexively shoot at the first three enemies moving within this area.\nSet Reactive Shot for 1 Turn(s)",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman-15-0.png",
+        "memory_cost": "1",
+        "name": "Reactive Shot",
+        "radius": 0,
+        "requires": [
+            "Huntsman 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Restoration": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Restore Vitality of a target character. Restoration also cures Poisoned and Bleeding.\nRestore 6 Vitality for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_restoration-icon.png",
+        "memory_cost": "1",
+        "name": "Restoration",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Ricochet": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "Fire a normal arrow that deals physical damage and then finds another target within 5m. Forks up to 2 times.\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman_ricochet-icon.png",
+        "memory_cost": "1",
+        "name": "Ricochet",
+        "radius": 0,
+        "requires": [
+            "Huntsman 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Rupture Tendons": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Deal [X] physical damage to target character. When they try to move, they will take piercing damage.\nSet Ruptured Tendons for 2 turn(s).\nDamage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel_knee_breaker-icon.png",
+        "memory_cost": "1",
+        "name": "Rupture Tendons",
+        "radius": 0,
+        "requires": [
+            "Scoundrel 2",
+            "Dagger"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Sabotage": {
+        "ap_cost": 1,
+        "cooldown": 1,
+        "description": "If target character is carrying grenades or arrows, a random one explodes in their inventory.\nExplodes 1 random Arrow(s) or Grenade(s) on target's inventory.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-15-31.png",
+        "memory_cost": "1",
+        "name": "Sabotage",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 1",
+            "Scoundrel 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Sawtooth Knife": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Pierce the enemy's Physical Armour and directly deals [X] piercing damage. Sets Bleeding if enemy has no Physical Armour.\nSet Bleeding for 3 turn(s).Damage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel_sawtooth_knife-icon.png",
+        "memory_cost": "1",
+        "name": "Sawtooth Knife",
+        "radius": 0,
+        "requires": [
+            "Scoundrel 2",
+            "Dagger"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Searing Daggers": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Shoot 3 flaming daggers at targets of your choice, creating a fire surface and dealing [X] fire damage\nSet Burning for two turns.Damage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_searing_daggers-icon.png",
+        "memory_cost": "1",
+        "name": "Searing Daggers",
+        "radius": 1,
+        "requires": [
+            "Pyrokinetic 1"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": "Unknown"
+    },
+    "Shackles of Pain": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Mark a target so that it will receive all of the damage you receive.\nSet Shackles of Pain for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_shackles_of_pain-icon.png",
+        "memory_cost": "1",
+        "name": "Shackles of Pain",
+        "radius": 0,
+        "requires": [
+            "Necromancer 2"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Shadow Infusion": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Incarnate learns how to go invisibleand strike foes with a corrosive slash.\nSet Shadow Infusion.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning-14-26.png",
+        "memory_cost": "1",
+        "name": "Shadow Infusion",
+        "radius": 0,
+        "requires": [
+            "Summoning 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Shields Up": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Restore the Physical Armour and Magic Armour of your shield\nRestore Physical Armour Restore Magical Armour",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/recover_armour-icon.png",
+        "memory_cost": 0,
+        "name": "Shields Up",
+        "radius": 0,
+        "requires": ["Shield"],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Shocking Touch": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Sets the Shocked status on a target within arm's length and deals [X] Air Damage.\nSets Shocked for 2 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_shocking_touch-icon.png",
+        "memory_cost": "1",
+        "name": "Shocking Touch",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 1"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Silencing Stare": {
+        "ap_cost": 2,
+        "cooldown": 2,
+        "description": "Silence enemies in a cone in front of you.\nSet Silenced for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_silencing_stare-icon.png",
+        "memory_cost": "1",
+        "name": "Silencing Stare",
+        "radius": 0,
+        "requires": [
+            "Necromancer 3"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Siphon Poison": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Remove poison surfaces and clouds. Gain poison damage bonus to weapon attacks and weapon-based skills (dependent upon size of poison area cleared)\nSet Siphon Poison for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer_siphon_poison-icon.png",
+        "memory_cost": "1",
+        "name": "Siphon Poison",
+        "radius": 0,
+        "requires": [
+            "Geomancer 3"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Skin Graft": {
+        "ap_cost": 2,
+        "cooldown": null,
+        "description": "Reset all cooldowns. Removes Burning, Necrofire, Poisoned and Bleeding.\nSet Skin Graft",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-12-13.png",
+        "memory_cost": "2",
+        "name": "Skin Graft",
+        "radius": 0,
+        "requires": [
+            "Polymorph 3"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Sky Shot": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Leap into the air before shooting, gaining damage bonuses for your superior height. Deals [X] Physical Damage\nThis skill receives high ground bonuses regardless of elevation.Damage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman-15-1.png",
+        "memory_cost": "1",
+        "name": "Sky Shot",
+        "radius": 0,
+        "requires": [
+            "Huntsman 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Sleeping Arms": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Deal [X] physical damage and set Atrophy: your target can't use weapons or weapon skills anymore.\nSet Atrophy for 2 turn(s).Damage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel_sleeping_arms-icon.png",
+        "memory_cost": "1",
+        "name": "Sleeping Arms",
+        "radius": 0,
+        "requires": [
+            "Scoundrel 2",
+            "Dagger"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Smoke Cover": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Create a smoke cloud around you, hiding from sight.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge-17-3.png",
+        "memory_cost": "1",
+        "name": "Smoke Cover",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 1",
+            "Scoundrel 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Soothing Cold": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Regenerate Magic Armour for all alies around caster.\nRestore 8 Magic Armour for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_soothing_cold-icon.png",
+        "memory_cost": "1",
+        "name": "Soothing Cold",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Soul Mate": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Targetcharacter receives half of the healing and Armour restoration that you receive. Clears Frozen, Stunned, Knocked Down and Petrified.\nSet Soul Mate for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning-14-21.png",
+        "memory_cost": 1,
+        "name": "Soul Mate",
+        "radius": 0,
+        "requires": ["Summoning 2"],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Sparking Swings": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Receive Sparkstriker status. This causes your melee attacks to create a spark projectile that bounces off the initial target to hit the closest enemy.\nSet Sparkstriker for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-16-1.png",
+        "memory_cost": "1",
+        "name": "Sparking Swings",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 1",
+            "Warfare 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Spider Legs": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Spider legs burst from your back. You can create web surfaces in an area to entangle foes. Incompatible with Wings.\nSet Spider Legs for 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-16-2.png",
+        "memory_cost": "1",
+        "name": "Spider Legs",
+        "radius": 0,
+        "requires": [
+            "Polymorph 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Spirit Form": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "??\nSet Invulnerablefor 2 turn(s).Set Silenced for 2 turn(s). Restore 6 Viality for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/source_spirit_vision-icon.png",
+        "memory_cost": 0,
+        "name": "Spirit Form",
+        "radius": 0,
+        "requires": [],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Spirit Vision": {
+        "ap_cost": 1,
+        "cooldown": null,
+        "description": "Your eyes pierce the veil of the Hall of Echoes.\nSet Spirit Visioned for 10 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/source_spirit_vision-icon.png",
+        "memory_cost": 0,
+        "name": "Spirit Vision",
+        "radius": 0,
+        "requires": [],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Spontaneous Combustion": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Deal [X] Fire Damage to target character. If the character is affected by Burning or Necrofire, remove those statuses and deal additional damage for each turn of duration remaining.\nDamage is based on your level and receives a bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_spontaneous_combustion-icon.png",
+        "memory_cost": "1",
+        "name": "Spontaneous Combustion",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Spread Your Wings": {
+        "ap_cost": 1,
+        "cooldown": 6,
+        "description": "Sprout temporary wings to fly when you move, allowing you to ignore ground surfaces. Incompatible with Spider Legs.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-12-12.png",
+        "memory_cost": "1",
+        "name": "Spread Your Wings",
+        "radius": 0,
+        "requires": [
+            "Polymorph 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Staff of Magus": {
+        "ap_cost": 2,
+        "cooldown": 1,
+        "description": "Launch a magic missile from your staff that deals [X] physical damage.\nDamage is based on your basic attack and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/staff_of_magus-icon.png",
+        "memory_cost": 0,
+        "name": "Staff of Magus",
+        "radius": 0,
+        "requires": [],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Steam Lance": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Releases a stream of Blessed Steam that heals characters in its path.\nRestore 6 Vitality for 3 Turn(s)",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_steam_lance-icon.png",
+        "memory_cost": "2",
+        "name": "Steam Lance",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 3"
+        ],
+        "resist": null,
+        "sp_cost": 2
+    },
+    "Sucker Punch": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "An unexpected blow, that deals [X] physical damage and knocks down target.\nSet Knocked Down for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/sucker_punch-icon.png",
+        "memory_cost": 0,
+        "name": "Sucker Punch",
+        "radius": 0,
+        "requires": [],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Summon Artillery Plant": {
+        "ap_cost": 3,
+        "cooldown": 6,
+        "description": "Plant can lob acidic spores and emit cursed poison clouds.\nThe stats of the summons will depend on caster level and Summoning ability.",
+        "duration": "5",
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-10-31.png",
+        "memory_cost": "2",
+        "name": "Summon Artillery Plant",
+        "radius": 0,
+        "requires": [
+            "Geomancer 3"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Summon Cat Familiar": {
+        "ap_cost": 2,
+        "cooldown": 6,
+        "description": "Summon a black cat by your side.\nThe stats of the summon will depend on caster level and Summoning ability.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning-11-30.png",
+        "memory_cost": 1,
+        "name": "Summon Cat Familiar",
+        "radius": 0,
+        "requires": ["No Summoning required"],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Summon Condor": {
+        "ap_cost": 2,
+        "cooldown": 6,
+        "description": "Summons a condor that will aid you in combat.\nThe stats of the summons will depend on caster level and Summoning ability.",
+        "duration": 10,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-16-11.png",
+        "memory_cost": 1,
+        "name": "Summon Condor",
+        "radius": 0,
+        "requires": ["No Summoning required"],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Summon Dragonling": {
+        "ap_cost": 2,
+        "cooldown": 6,
+        "description": "Summons a newt to help you in combat.\nThe stats of the summons will depend on caster level and Summoning ability.",
+        "duration": 5,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-18-7.png",
+        "memory_cost": 2,
+        "name": "Summon Dragonling",
+        "radius": 0,
+        "requires": ["Summoning ?"],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Summon Fire Slug": {
+        "ap_cost": 1,
+        "cooldown": 6,
+        "description": "Summon a Fire Slug. Your Fire Slug can create fire surfaces and launch linear fire attacks.\nThe stats of the summon will depend on the caster's level and summoning ability.",
+        "duration": "5",
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-14-11.png",
+        "memory_cost": "2",
+        "name": "Summon Fire Slug",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 3"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Summon Ifan's Soul Wolf": {
+        "ap_cost": 3,
+        "cooldown": 6,
+        "description": "Summons your trusty Soul Wolf, which can Howl and Bite enemies.\nThe stats of the summons will depend on caster level and Summoning ability.",
+        "duration": 10,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summon_soul_wolf-icon.png",
+        "memory_cost": 0,
+        "name": "Summon Ifan's Soul Wolf",
+        "radius": 0,
+        "requires": [],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Summon Inner Demon": {
+        "ap_cost": 1,
+        "cooldown": 6,
+        "description": "Conjure a demon that will share their Intelligence with you and provide[X] Magic Armour. Grants you power to terrify and protect yourself with demonic fists.\nSet Inner Demonfor 3 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer-17-15.png",
+        "memory_cost": 2,
+        "name": "Summon Inner Demon",
+        "radius": 0,
+        "requires": ["Summoning ?"],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Summon Oily Blob": {
+        "ap_cost": 2,
+        "cooldown": 6,
+        "description": "Fling an Oil Blob at a target point, dealing [X] Earth Damage in the area. Oil Blob deals earth damage with melee attacks and leaves an oil puddle on death.\nDamage is based on your level and receives bonus from Strength.\nThe stats of the summons will depend on caster level and Summoning ability.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-15-3.png",
+        "memory_cost": "1",
+        "name": "Summon Oily Blob",
+        "radius": "3",
+        "requires": [
+            "Polymorph 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Supercharger": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Target summon deals 50% more base damage during its next turn, but then it dies.\nSet Supercharged for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning_supercharge-icon.png",
+        "memory_cost": "1",
+        "name": "Supercharger",
+        "radius": 0,
+        "requires": [
+            "Summoning 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Superconductor": {
+        "ap_cost": 3,
+        "cooldown": 3,
+        "description": "Shoot forking spikes at all enemies within the area, dealing [X] Air Damage and setting Shocked.\nSets Shocked for 1 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/1.png",
+        "memory_cost": "1",
+        "name": "Superconductor",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 3"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Supernova": {
+        "ap_cost": 3,
+        "cooldown": 6,
+        "description": "Explode, creating fire surfaces and dealing [X] Fire Damage in a large area around you. (Except areas blocked by obstacles)\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_supernova-icon.png",
+        "memory_cost": "1",
+        "name": "Supernova",
+        "radius": 0,
+        "requires": [
+            "Pyrokinetic 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Tactical Retreat": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Apply haste to yourself, then teleport away from imminent danger.\nSet Hasted for 1 Turn(s)",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman_tactical_retreat-icon.png",
+        "memory_cost": "1",
+        "name": "Tactical Retreat",
+        "radius": 0,
+        "requires": [
+            "Huntsman 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Teleportation": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "Teleport a target character or item to a point of your choosing\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_teleport-icon.png",
+        "memory_cost": "1",
+        "name": "Teleportation",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Tentacle Lash": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Lash out at your opponent dealing, physical damage and setting Atrophy on them.\nSet Atrophy for 1 turn(s).\nDamage is based on your level and receives bonus from Strength.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph-12-18.png",
+        "memory_cost": "1",
+        "name": "Tentacle Lash",
+        "radius": 0,
+        "requires": [
+            "Polymorph 1"
+        ],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Terrain Transmutation": {
+        "ap_cost": 1,
+        "cooldown": 2,
+        "description": "Target two circular areas. Swap surfaces and clouds.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph_terrain_transmutation-icon.png",
+        "memory_cost": "1",
+        "name": "Terrain Transmutation",
+        "radius": 0,
+        "requires": [
+            "Polymorph 2"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Terrifying Cruelty": {
+        "ap_cost": 3,
+        "cooldown": 4,
+        "description": "Dagger attack that deals [X] physical damage and sets Bleeding and Fear on target character.\nSet Bleeding for 3 turn(s).Set Terrified for 1 turn(s).Damage is based on your basic attack and receives a bonus from Finesse.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel-15-6.png",
+        "memory_cost": 1,
+        "name": "Terrifying Cruelty",
+        "radius": 0,
+        "requires": ["Scoundrel 3", "Dagger"],
+        "resist": "physical_armour-icon",
+        "sp_cost": null
+    },
+    "Thick of the fight": {
+        "ap_cost": 2,
+        "cooldown": 4,
+        "description": "The more the merrier! Gain a damage boost for every nearby character.\nSet Thick of the Fight for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_thick_of_the_fight-icon.png",
+        "memory_cost": "2",
+        "name": "Thick of the fight",
+        "radius": 0,
+        "requires": [
+            "Warfare 3"
+        ],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Throw Dust": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Throw dust at a character, blinding them and dealing [X] Earth Damage. Clears surfaces and clouds in the area.\nSet Blinded for 1 turn(s).\nDamage is based on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-16-29.png",
+        "memory_cost": "1",
+        "name": "Throw Dust",
+        "radius": "2",
+        "requires": [
+            "Geomancer 1",
+            "Hunstman 1"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Throw Explosive Trap": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Throw an explosive trap at target locations. Trap takes a turn to activate. When active, trap will explode when a character approaches it.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic-15-29.png",
+        "memory_cost": "1",
+        "name": "Throw Explosive Trap",
+        "radius": "3",
+        "requires": [
+            "Pyrokinetic 1",
+            "Huntsman 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Throwing Knife": {
+        "ap_cost": 2,
+        "cooldown": 1,
+        "description": "Throw a knife at your opponent, dealing [7-8] poison and [3-4] Air damage. Can backstab!\nDamage is based on your basic attack and receives a bonus from Finesse",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel_throwing_knife-icon.png",
+        "memory_cost": "1",
+        "name": "Throwing Knife",
+        "radius": 0,
+        "requires": [
+            "Scoundrel 1",
+            "Dagger"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Thunderstorm": {
+        "ap_cost": 4,
+        "cooldown": 5,
+        "description": "A storm rages in the target area, hitting enemies with lightning bolts for 3 turns.",
+        "duration": 2,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_superconductor-icon.png",
+        "memory_cost": 3,
+        "name": "Thunderstorm",
+        "radius": 0,
+        "requires": ["Aerotheurge 5"],
+        "resist": null,
+        "sp_cost": 3
+    },
+    "Time Warp": {
+        "ap_cost": 2,
+        "cooldown": null,
+        "description": "Target a character. Whenever this character ends a turn in combat, they immediately get a free turn.\nReceive an extra turn in combat for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/time_warp-icon.png",
+        "memory_cost": 0,
+        "name": "Time Warp",
+        "radius": 0,
+        "requires": [],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Tornado": {
+        "ap_cost": 2,
+        "cooldown": 10,
+        "description": "A tornado moves randomly around the battlefield, removing surfaces and revealing invisible characters. Also clears Invisible, Burning and Slowed.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Air_Tornado.jpg",
+        "memory_cost": "1",
+        "name": "Tornado",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 3"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Totems of the Necromancer": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Spawn bone totems near every corpse in the area. Bone totems have ranged attacks that deal physical damage.\nA Bones Totem will be summoned at the location of your target(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_totems_of_the_necromancer-icon.png",
+        "memory_cost": "3",
+        "name": "Totems of the Necromancer",
+        "radius": 0,
+        "requires": [
+            "Necromancer 5"
+        ],
+        "resist": "None",
+        "sp_cost": 3
+    },
+    "Turn to Oil": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Turn water and blood surfaces into oil. Remove Stun and Shocked from characters.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer_oil_spring-icon.png",
+        "memory_cost": "1",
+        "name": "Turn to Oil",
+        "radius": 0,
+        "requires": [
+            "Geomancer 1",
+            "Polymorph 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Uncanny Evasion": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Your dodging is increased by 100% and your Movement Speed is increased by 20%.\nSets Evading for 1 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge-17-1.png",
+        "memory_cost": "1",
+        "name": "Uncanny Evasion",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 2"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Vacuum Aura": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Deal [X] Air Damage to enemies in the area. Caster receives an aura that sets Silence and Suffocating on enemies\nSets Vacuum Aura for 3 turn(s).\nDamage is based on your level and receives bonus from Intelligence",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge-16-9.png",
+        "memory_cost": "2",
+        "name": "Vacuum Aura",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 2",
+            "Necromancer 2"
+        ],
+        "resist": "None",
+        "sp_cost": 1
+    },
+    "Vacuum Touch": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Deal [X] Air Damage. Set Suffocation and Silence on target\nSets Suffocating for 1 turn(s).Sets Silenced for 1 turn(s).\nDamage is based on your level and receives a bonus from Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge-16-15.png",
+        "memory_cost": "1",
+        "name": "Vacuum Touch",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 1",
+            "Necromancer 1"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Vampiric Hunger": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Set Vampiric Hunger on target character, adding 50% Life Steal for 2 turns. Life Steal heals you in proportion to the damage you deal to Vitality.\nSet Vampiric Hunger for 2 Turn(s)",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist-16-19.png",
+        "memory_cost": "1",
+        "name": "Vampiric Hunger",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 1",
+            "Scoundrel 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Vampiric Hunger Aura": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Set Vampiric Hunger Aura on every ally around you, adding 50% Life Steal for 2 turns. Life Steal heals you in proportion to the damage you deal to Vitality.\nSet Vampiric Hunger Aura for 2 Turn(s)",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist-16-20.png",
+        "memory_cost": "2",
+        "name": "Vampiric Hunger Aura",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 2",
+            "Scoundrel 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Vaporize": {
+        "ap_cost": 1,
+        "cooldown": 4,
+        "description": "Remove Petrified and Frozen from target character. Vaporise ground surfaces into clouds. Does not work on Oil, Ice or Lava surfaces",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_vaporise-icon.png",
+        "memory_cost": "1",
+        "name": "Vaporize",
+        "radius": 0,
+        "requires": [
+            "Aerotheurge 1",
+            "Polymorph 1"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Venom Coating": {
+        "ap_cost": 1,
+        "cooldown": 5,
+        "description": "Coat your weapon with poison, adding [X] Poison Damage to your weapon skills and attacks.\nSet Venom Coating for 2 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-17-11.png",
+        "memory_cost": "1",
+        "name": "Venom Coating",
+        "radius": 0,
+        "requires": [
+            "Geomancer 1",
+            "Scoundrel 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Venomous Aura": {
+        "ap_cost": 2,
+        "cooldown": 5,
+        "description": "Allies in range receive Venom Coating, which adds [X] Poison Damage to weapon skills and attacks.\nSet Venomous Aura for 4 turn(s).",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-17-12.png",
+        "memory_cost": "2",
+        "name": "Venomous Aura",
+        "radius": 0,
+        "requires": [
+            "Geomancer 2",
+            "Scoundrel 2"
+        ],
+        "resist": null,
+        "sp_cost": 1
+    },
+    "Warp Infusion": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Incarnate learns a teleport skill, and a skill to swap places with its master.\nSet Warp Infusion.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning-14-25.png",
+        "memory_cost": "1",
+        "name": "Warp Infusion",
+        "radius": 0,
+        "requires": [
+            "Summoning 3"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Water Infusion": {
+        "ap_cost": 1,
+        "cooldown": 3,
+        "description": "Change Incarnate's element to water, unlocking Restoration.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist-13-6.png",
+        "memory_cost": "1",
+        "name": "Water Infusion",
+        "radius": 0,
+        "requires": [
+            "Summoning 1",
+            "Hydrosophist 1"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Whirlwind": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Perform a whirlwind attack, hitting enemies around you for [X] physical damage.\nDamage is based on your basic attack and receives a bonus from stat of equipped weapon.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_whirlwind-icon.png",
+        "memory_cost": "1",
+        "name": "Whirlwind",
+        "radius": 0,
+        "requires": [
+            "Warfare 2",
+            "Melee"
+        ],
+        "resist": "None",
+        "sp_cost": null
+    },
+    "Wind-Up Toy": {
+        "ap_cost": 2,
+        "cooldown": 6,
+        "description": "Summon a mechanical bomber at the target point. The bomber can explode, dealing fire damage and producing a fire surface.\nDoes not break Invisibility or Sneaking.\nThe stats of the summons will depend on caster level and Summoning ability.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/scoundrel_wind-up_toy-icon.png",
+        "memory_cost": "1",
+        "name": "Wind-Up Toy",
+        "radius": "1",
+        "requires": [
+            "Scoundrel 3"
+        ],
+        "resist": null,
+        "sp_cost": null
+    },
+    "Winter Blast": {
+        "ap_cost": 2,
+        "cooldown": 3,
+        "description": "Deal [X] Water Damage and set Chilled status on characters in the area. Freeze blood and water surfaces.\nSet Chilled for 2 Turn(s)\nDamage is based on your level and receives a bonus from Intelligence",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_winter_blast-icon.png",
+        "memory_cost": "1",
+        "name": "Winter Blast",
+        "radius": 0,
+        "requires": [
+            "Hydrosophist 2"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    },
+    "Worm Tremor": {
+        "ap_cost": 3,
+        "cooldown": 5,
+        "description": "Deals [X] Earth Damage to each character in the area. At your command, poisonous worms slither up from the earth, attaching to every character in the area who is not protected by Magic Armour. Affected characters cannot move or teleport, and they receive [X] Poison Damage each turn.\nSet Entangled for 2 turn(s).\nDamage is based on your level and receives bonus from your Intelligence.",
+        "duration": 0,
+        "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-14-30.png",
+        "memory_cost": "1",
+        "name": "Worm Tremor",
+        "radius": "2",
+        "requires": [
+            "Geomancer 2"
+        ],
+        "resist": "magic_armour-icon",
+        "sp_cost": null
+    }
+}
