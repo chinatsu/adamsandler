@@ -12,6 +12,42 @@ class Divinity():
     async def testcommand(self):
         await self.bot.say("I'm 31 now. I think I'm beginning to understand what life is, what romance is, and what a relationship means.")
 
+    @commands.command(name="spell")
+    async def spell(self, *, query):
+        with open('spells.json') as f:
+            spells = json.load(f)
+
+        spell_list = list(spells.keys())
+        result = process.extractOne(query, spell_list)
+        if result[1] > 65:
+            spell = spells[result[0]]
+        else:
+            await self.bot.say("No spell matched your query")
+            return
+        embed=discord.Embed(title=spell["name"], color=0x7B441C, description=spell["description"])
+        embed.set_thumbnail(url=spell["image"])
+        if len(spell["requires"]) > 0:
+            embed.add_field(name="Requires", value=", ".join(spell["requires"]), inline=False)
+        embed.add_field(name="Learning Cost", value="{} Memory".format(spell["memory_cost"]), inline=False)
+        if int(spell["radius"]) > 0:
+            embed.add_field(name="Radius", value="{} meters".format(spell["radius"]), inline=True)
+        embed.add_field(name="Cooldown", value="{} turns".format(spell["cooldown"]), inline=True)
+        if spell["ap_cost"]:
+            embed.add_field(name="AP Cost", value=spell["ap_cost"], inline=True)
+        if spell["sp_cost"]:
+            embed.add_field(name="SP Cost", value=spell["sp_cost"], inline=True)
+        if spell["resist"] and spell["resist"] not in ["None"]:
+            if spell["resist"] == "magic_armour-icon":
+                embed.add_field(name="Resist", value="Magic armor", inline=True)
+            elif spell["resist"] == "physical_armour-icon":
+                embed.add_field(name="Resist", value="Physical armor", inline=True)
+        if int(spell["duration"]) > 0:
+            embed.add_field(name="Duration", value=spell["duration"], inline=True)
+        embed.set_footer(text="Search result confidence: {}%".format(result[1]))
+        print(spell["name"])
+        await self.bot.say(embed=embed)
+
+
     @commands.command(name="memebuild")
     async def memebuild(self):
         build = {"origin": random.choice(origins + races),
