@@ -777,7 +777,7 @@
         "image": "http://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_dazing_bolt-icon.png",
         "memory_cost": 1,
         "name": "Dazing Bolt",
-        "radius": ,
+        "radius": 3,
         "requires": ["Aerotheurge 2"],
         "resist": "magic_armour-icon",
         "sp_cost": null
